@@ -4,6 +4,8 @@
 */
 function mostrar()
 {
-
+var mensaje;
+mensaje = prompt("Ingrese su nombre");
+document.getElementById("elNombre").value = mensaje;
 }
 
